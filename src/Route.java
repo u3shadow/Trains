@@ -1,7 +1,7 @@
 /**
  * Created by xiaolei on 2017/2/23.
  */
-public class Route {
+public class Route implements Cloneable {
     private String toTownName;
     private int wayLength;
     public Route(String toTownName,int wayLength){
@@ -15,4 +15,12 @@ public class Route {
         return wayLength;
     }
 
+    public void setWayLength(int wayLength) {
+        this.wayLength = wayLength;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }

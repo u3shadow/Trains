@@ -1,3 +1,7 @@
+package Trains.test;
+
+import Trains.Route;
+import Trains.ShortestLengthFinder;
 import org.junit.Before;
 import org.junit.Test;
 

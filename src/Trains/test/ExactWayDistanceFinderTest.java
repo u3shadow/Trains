@@ -1,3 +1,7 @@
+package Trains.test;
+
+import Trains.ExactWayDistanceFinder;
+import Trains.Route;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -5,7 +9,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
 import static org.junit.Assert.*;
 
 /**
@@ -65,7 +68,8 @@ public class ExactWayDistanceFinderTest {
         int length = finder.getLength(routeMap, "A", "B", "C", "D");
         assertEquals(ExactWayDistanceFinder.NO_WAY_FIND, length);
     }
-     @Test
+
+    @Test
     public void test_getLength_prat_find_two_more_node_in() {
         ARoutes.add(new Route("B", 2));
         BRoutes.add(new Route("C", 5));

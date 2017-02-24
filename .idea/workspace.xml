@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66ea5b84-ac52-415f-8382-30066f26ac62" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Trains/test/ExactStopWayNumberFinderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Trains/test/MaxStopWayNumberFinderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Trains/waynumberfinder/ExactStopWayNumberFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Trains/waynumberfinder/MaxStopWayNumberFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Trains/waynumberfinder/WayNumberFinder.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ExactWayDistanceFinder.java" afterPath="$PROJECT_DIR$/src/Trains/ExactWayDistanceFinder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ExactWayDistanceFinderTest.java" afterPath="$PROJECT_DIR$/src/Trains/test/ExactWayDistanceFinderTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Route.java" afterPath="$PROJECT_DIR$/src/Trains/Route.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ShortestLengthFinder.java" afterPath="$PROJECT_DIR$/src/Trains/ShortestLengthFinder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ShortestLengthFinderTest.java" afterPath="$PROJECT_DIR$/src/Trains/test/ShortestLengthFinderTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,31 +28,29 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5048544">
+    <splitter split-orientation="horizontal" split-proportion="0.49868074">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ShortestLengthFinder.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ShortestLengthFinder.java">
+        <leaf>
+          <file leaf-file-name="MaxStopWayNumberFinder.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Trains/waynumberfinder/MaxStopWayNumberFinder.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+                <state relative-caret-position="176">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding>
-                    <element signature="e#526#547#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Route.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Route.java">
+          <file leaf-file-name="ExactStopWayNumberFinder.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Trains/waynumberfinder/ExactStopWayNumberFinder.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+                <state relative-caret-position="312">
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                   <folding>
-                    <element signature="e#374#375#0" expanded="true" />
-                    <element signature="e#406#407#0" expanded="true" />
-                    <element signature="e#453#454#0" expanded="true" />
-                    <element signature="e#495#496#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#301#302#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -50,15 +59,47 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file leaf-file-name="ShortestLengthFinderTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ShortestLengthFinderTest.java">
+            <entry file="file://$PROJECT_DIR$/src/Trains/test/ShortestLengthFinderTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1216">
-                  <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+                <state relative-caret-position="364">
+                  <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ExactStopWayNumberFinderTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Trains/test/ExactStopWayNumberFinderTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="182">
+                  <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MaxStopWayNumberFinderTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Trains/test/MaxStopWayNumberFinderTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-11">
+                  <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ExactWayDistanceFinderTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Trains/test/ExactWayDistanceFinderTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-11">
+                  <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -70,16 +111,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MaxStopWayNumberFinder</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ExactStopWayNumberFinder</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="xiaolei &lt;xiaolei@globalroam.com&gt;" />
         <option value="u3shadow@gmail.com" />
+        <option value="xiaolei &lt;xiaolei@globalroam.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,6 +145,21 @@
         <option value="$PROJECT_DIR$/src/ShortestLengthFinderTest.java" />
         <option value="$PROJECT_DIR$/src/Route.java" />
         <option value="$PROJECT_DIR$/src/ShortestLengthFinder.java" />
+        <option value="$PROJECT_DIR$/src/LimitedWayNumberFinder.java" />
+        <option value="$PROJECT_DIR$/src/LimitedWayNumberFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/LimitedStopWayNumberFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/WayNumberFinder.java" />
+        <option value="$PROJECT_DIR$/src/LimitedStopWayNumberFinder.java" />
+        <option value="$PROJECT_DIR$/src/MaxStopWayNumberFinder.java" />
+        <option value="$PROJECT_DIR$/src/waynumberfinder/MaxStopWayNumberFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/waynumberfinder/WayNumberFinder.java" />
+        <option value="$PROJECT_DIR$/src/Trains/ShortestLengthFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/Trains/waynumberfinder/WayNumberFinder.java" />
+        <option value="$PROJECT_DIR$/src/Trains/waynumberfinder/MaxStopWayNumberFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/Trains/waynumberfinder/MaxStopWayNumberFinder.java" />
+        <option value="$PROJECT_DIR$/src/Trains/waynumberfinder/ExactStopWayNumberFinder.java" />
+        <option value="$PROJECT_DIR$/src/Trains/waynumberfinder/ExactStopWayNumberFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/Trains/test/ShortestLengthFinderTest.java" />
       </list>
     </option>
   </component>
@@ -121,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,20 +212,72 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waynumberfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
+    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trains.waynumberfinder" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -169,13 +286,13 @@
       <recent name="E:\Trains\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShortestLengthFinderTest">
-    <configuration default="false" name="ExactWayDistanceFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExactStopWayNumberFinderTest">
+    <configuration default="false" name="MaxStopWayNumberFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trains" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExactWayDistanceFinderTest" />
+      <option name="PACKAGE_NAME" value="Trains.test" />
+      <option name="MAIN_CLASS_NAME" value="Trains.test.MaxStopWayNumberFinderTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -190,54 +307,74 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ShortestLengthFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MaxStopWayNumberFinderTest.test_findWayNumber_can_return" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trains" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShortestLengthFinderTest" />
+      <option name="PACKAGE_NAME" value="Trains.test" />
+      <option name="MAIN_CLASS_NAME" value="Trains.test.MaxStopWayNumberFinderTest" />
+      <option name="METHOD_NAME" value="test_findWayNumber_can_return" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaxStopWayNumberFinderTest.test_findWayNumber_can_find_one_in_one_out" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trains" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Trains.test" />
+      <option name="MAIN_CLASS_NAME" value="Trains.test.MaxStopWayNumberFinderTest" />
+      <option name="METHOD_NAME" value="test_findWayNumber_can_find_one_in_one_out" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaxStopWayNumberFinderTest.test_findWayNumber_can_find_two_in_one_out" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trains" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Trains.test" />
+      <option name="MAIN_CLASS_NAME" value="Trains.test.MaxStopWayNumberFinderTest" />
+      <option name="METHOD_NAME" value="test_findWayNumber_can_find_two_in_one_out" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExactStopWayNumberFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trains" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Trains.test" />
+      <option name="MAIN_CLASS_NAME" value="Trains.test.ExactStopWayNumberFinderTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShortestLengthFinderTest.test_findShortestWay_can_return_more_than_two_node" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Trains" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShortestLengthFinderTest" />
-      <option name="METHOD_NAME" value="test_findShortestWay_can_return_more_than_two_node" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShortestLengthFinderTest.test_findShortestWay_can_return_when_need_add_new_route" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Trains" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShortestLengthFinderTest" />
-      <option name="METHOD_NAME" value="test_findShortestWay_can_return_when_need_add_new_route" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -365,18 +502,20 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ExactWayDistanceFinderTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShortestLengthFinderTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShortestLengthFinderTest.test_findShortestWay_can_return_more_than_two_node" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShortestLengthFinderTest.test_findShortestWay_can_return_when_need_add_new_route" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MaxStopWayNumberFinderTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MaxStopWayNumberFinderTest.test_findWayNumber_can_return" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MaxStopWayNumberFinderTest.test_findWayNumber_can_find_one_in_one_out" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MaxStopWayNumberFinderTest.test_findWayNumber_can_find_two_in_one_out" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExactStopWayNumberFinderTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShortestLengthFinderTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShortestLengthFinderTest.test_findShortestWay_can_return_when_need_add_new_route" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShortestLengthFinderTest.test_findShortestWay_can_return_more_than_two_node" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExactWayDistanceFinderTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExactStopWayNumberFinderTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MaxStopWayNumberFinderTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MaxStopWayNumberFinderTest.test_findWayNumber_can_find_two_in_one_out" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MaxStopWayNumberFinderTest.test_findWayNumber_can_find_one_in_one_out" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MaxStopWayNumberFinderTest.test_findWayNumber_can_return" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -388,6 +527,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -411,39 +553,46 @@
       <option name="project" value="LOCAL" />
       <updated>1487838642113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add some config xml">
+      <created>1487838694989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487838694989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShortestLengthFinderTest - 2017.02.23 at 15h 57m 14s.xml">
-      <configuration name="ShortestLengthFinderTest" configurationId="JUnit" />
+    <history-entry file="ExactStopWayNumberFinderTest - 2017.02.24 at 11h 19m 32s.xml">
+      <configuration name="ExactStopWayNumberFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest - 2017.02.23 at 15h 57m 27s.xml">
-      <configuration name="ShortestLengthFinderTest" configurationId="JUnit" />
+    <history-entry file="ExactStopWayNumberFinderTest - 2017.02.24 at 11h 19m 51s.xml">
+      <configuration name="ExactStopWayNumberFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest - 2017.02.23 at 16h 07m 01s.xml">
-      <configuration name="ShortestLengthFinderTest" configurationId="JUnit" />
+    <history-entry file="LimitedStopWayNumberFinderTest - 2017.02.24 at 11h 03m 03s.xml">
+      <configuration name="LimitedStopWayNumberFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest - 2017.02.23 at 16h 14m 17s.xml">
-      <configuration name="ShortestLengthFinderTest" configurationId="JUnit" />
+    <history-entry file="LimitedStopWayNumberFinderTest - 2017.02.24 at 11h 04m 17s.xml">
+      <configuration name="LimitedStopWayNumberFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest - 2017.02.23 at 16h 14m 42s.xml">
-      <configuration name="ShortestLengthFinderTest" configurationId="JUnit" />
+    <history-entry file="LimitedStopWayNumberFinderTest - 2017.02.24 at 11h 08m 39s.xml">
+      <configuration name="LimitedStopWayNumberFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest - 2017.02.23 at 16h 15m 11s.xml">
-      <configuration name="ShortestLengthFinderTest" configurationId="JUnit" />
+    <history-entry file="LimitedStopWayNumberFinderTest_test_findWayNumber_can_find_one_in_one_out - 2017.02.24 at 11h 01m 49s.xml">
+      <configuration name="LimitedStopWayNumberFinderTest.test_findWayNumber_can_find_one_in_one_out" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest_test_findShortestWay_can_return_when_need_add_new_route - 2017.02.23 at 15h 54m 24s.xml">
-      <configuration name="ShortestLengthFinderTest.test_findShortestWay_can_return_when_need_add_new_route" configurationId="JUnit" />
+    <history-entry file="LimitedStopWayNumberFinderTest_test_findWayNumber_can_find_two_in_one_out - 2017.02.24 at 11h 02m 50s.xml">
+      <configuration name="LimitedStopWayNumberFinderTest.test_findWayNumber_can_find_two_in_one_out" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest_test_findShortestWay_can_return_when_need_add_new_route - 2017.02.23 at 15h 54m 34s.xml">
-      <configuration name="ShortestLengthFinderTest.test_findShortestWay_can_return_when_need_add_new_route" configurationId="JUnit" />
+    <history-entry file="LimitedStopWayNumberFinderTest_test_findWayNumber_can_find_two_in_one_out - 2017.02.24 at 11h 02m 59s.xml">
+      <configuration name="LimitedStopWayNumberFinderTest.test_findWayNumber_can_find_two_in_one_out" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest_test_findShortestWay_can_return_when_need_add_new_route - 2017.02.23 at 15h 56m 02s.xml">
-      <configuration name="ShortestLengthFinderTest.test_findShortestWay_can_return_when_need_add_new_route" configurationId="JUnit" />
+    <history-entry file="MaxStopWayNumberFinderTest - 2017.02.24 at 11h 09m 06s.xml">
+      <configuration name="MaxStopWayNumberFinderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestLengthFinderTest_test_findShortestWay_can_return_when_need_add_new_route - 2017.02.23 at 15h 56m 57s.xml">
-      <configuration name="ShortestLengthFinderTest.test_findShortestWay_can_return_when_need_add_new_route" configurationId="JUnit" />
+    <history-entry file="MaxStopWayNumberFinderTest - 2017.02.24 at 11h 13m 25s.xml">
+      <configuration name="MaxStopWayNumberFinderTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -451,13 +600,13 @@
     <editor active="false" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1670179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20126449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40455532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40563992" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31127983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -515,27 +664,39 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="imp find shortest way" />
     <MESSAGE value="add some config xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some config xml" />
+    <MESSAGE value="imp waynumber finder and sub class maxstopfinder,exactstopfinder" />
+    <option name="LAST_COMMIT_MESSAGE" value="imp waynumber finder and sub class maxstopfinder,exactstopfinder" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ShortestLengthFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/Trains/ShortestLengthFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="e#526#547#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#516#517#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShortestLengthFinderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Trains/test/ShortestLengthFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -545,22 +706,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExactWayDistanceFinderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Trains/ShortestLengthFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="312">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExactWayDistanceFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/Trains/test/ShortestLengthFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1279#1280#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/test/ExactWayDistanceFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -575,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-137">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,51 +761,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExactWayDistanceFinderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1098">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/ExactWayDistanceFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Route.java">
+    <entry file="file://$PROJECT_DIR$/src/Trains/Route.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="78">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShortestLengthFinderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Trains/ShortestLengthFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="129">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/waynumberfinder/WayNumberFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/waynumberfinder/MaxStopWayNumberFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShortestLengthFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/Trains/waynumberfinder/ExactStopWayNumberFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/test/ExactStopWayNumberFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/test/MaxStopWayNumberFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="e#526#547#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/test/ExactWayDistanceFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trains/test/ShortestLengthFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

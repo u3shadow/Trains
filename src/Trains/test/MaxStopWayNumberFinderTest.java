@@ -42,7 +42,7 @@ public class MaxStopWayNumberFinderTest {
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
         finder = new MaxStopWayNumberFinder(routeMap);
-        int wayNumber = finder.findWayNumber("A", "C", 2);
+        int wayNumber = finder.findWayNumber("A", "C", 3);
         assertEquals(1, wayNumber);
     }
 
@@ -65,7 +65,7 @@ public class MaxStopWayNumberFinderTest {
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
         finder = new MaxStopWayNumberFinder(routeMap);
-        int wayNumber = finder.findWayNumber("A", "C", 1);
+        int wayNumber = finder.findWayNumber("A", "C", 2);
         assertEquals(1, wayNumber);
     }
 
@@ -78,7 +78,7 @@ public class MaxStopWayNumberFinderTest {
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
         finder = new MaxStopWayNumberFinder(routeMap);
-        int wayNumber = finder.findWayNumber("A", "C", 2);
+        int wayNumber = finder.findWayNumber("A", "C", 3);
         assertEquals(2, wayNumber);
     }
 }

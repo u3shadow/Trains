@@ -10,9 +10,12 @@ public class ExactWayDistanceFinder {
     public static int NO_WAY_FIND = -1;
     private Map<String, List<Route>> map;
 
-    public int getLength(Map<String, List<Route>> routeMaps, String... routeToFind) {
+    public ExactWayDistanceFinder(Map<String, List<Route>> routeMaps) {
         map = routeMaps;
-        if (routeMaps == null)
+    }
+
+    public int getLength(String... routeToFind) {
+        if (map == null)
             return NO_WAY_FIND;
         List<Route> routes;
         int distance = 0;

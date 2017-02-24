@@ -22,6 +22,6 @@ public class MaxStopWayNumberFinder extends WayNumberFinder {
 
     @Override
     protected boolean isOnLimited(String nowWay, int nowLength, Route nowRoute) {
-        return nowWay.split(",").length <= limited + 1;
+        return nowWay.split(",").length < limited + 1;
     }
 }

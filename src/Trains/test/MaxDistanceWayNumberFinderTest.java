@@ -43,7 +43,7 @@ public class MaxDistanceWayNumberFinderTest {
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
         finder = new MaxDistanceWayNumberFinder(routeMap);
-        int wayNumber = finder.findWayNumber("A", "C", 10);
+        int wayNumber = finder.findWayNumber("A", "C", 11);
         assertEquals(1, wayNumber);
     }
 
@@ -54,7 +54,7 @@ public class MaxDistanceWayNumberFinderTest {
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
         finder = new MaxDistanceWayNumberFinder(routeMap);
-        int wayNumber = finder.findWayNumber("A", "C", 10);
+        int wayNumber = finder.findWayNumber("A", "C", 11);
         assertEquals(1, wayNumber);
     }
 
@@ -66,7 +66,7 @@ public class MaxDistanceWayNumberFinderTest {
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
         finder = new MaxDistanceWayNumberFinder(routeMap);
-        int wayNumber = finder.findWayNumber("A", "C", 5);
+        int wayNumber = finder.findWayNumber("A", "C", 6);
         assertEquals(1, wayNumber);
     }
 
@@ -79,7 +79,20 @@ public class MaxDistanceWayNumberFinderTest {
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
         finder = new MaxDistanceWayNumberFinder(routeMap);
-        int wayNumber = finder.findWayNumber("A", "C", 10);
+        int wayNumber = finder.findWayNumber("A", "C", 11);
         assertEquals(2, wayNumber);
+    }
+
+    @Test
+    public void test_findWayNumber_from_to_same() {
+        ARoutes.add(new Route("B", 5));
+        ARoutes.add(new Route("C", 5));
+        BRoutes.add(new Route("A", 5));
+        BRoutes.add(new Route("C", 5));
+        routeMap.put("A", ARoutes);
+        routeMap.put("B", BRoutes);
+        finder = new MaxDistanceWayNumberFinder(routeMap);
+        int wayNumber = finder.findWayNumber("A", "A", 11);
+        assertEquals(1, wayNumber);
     }
 }

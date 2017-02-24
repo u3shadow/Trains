@@ -22,7 +22,6 @@ public class ExactWayDistanceFinderTest {
 
     @Before
     public void init() {
-        finder = new ExactWayDistanceFinder();
         routeMap = new HashMap<String, List<Route>>();
         ARoutes = new ArrayList<Route>();
         BRoutes = new ArrayList<Route>();
@@ -30,13 +29,17 @@ public class ExactWayDistanceFinderTest {
 
     @Test
     public void test_getLength_can_return() {
-        int length = finder.getLength(new HashMap<String, List<Route>>(), "A", "B", "C");
+
+        finder = new ExactWayDistanceFinder(routeMap);
+        int length = finder.getLength("A", "B", "C");
         assertNotNull(length);
     }
 
     @Test
     public void test_getLength_when_no_this_way() {
-        int length = finder.getLength(new HashMap<String, List<Route>>(), "A", "B", "C");
+
+        finder = new ExactWayDistanceFinder(routeMap);
+        int length = finder.getLength("A", "B", "C");
         assertEquals(ExactWayDistanceFinder.NO_WAY_FIND, length);
     }
 
@@ -44,7 +47,8 @@ public class ExactWayDistanceFinderTest {
     public void test_getLength_can_find_two_node() {
         ARoutes.add(new Route("B", 2));
         routeMap.put("A", ARoutes);
-        int length = finder.getLength(routeMap, "A", "B");
+        finder = new ExactWayDistanceFinder(routeMap);
+        int length = finder.getLength("A", "B");
         assertEquals(2, length);
     }
 
@@ -55,7 +59,8 @@ public class ExactWayDistanceFinderTest {
         BRoutes.add(new Route("C", 5));
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
-        int length = finder.getLength(routeMap, "A", "B", "C");
+        finder = new ExactWayDistanceFinder(routeMap);
+        int length = finder.getLength("A", "B", "C");
         assertEquals(7, length);
     }
 
@@ -65,7 +70,8 @@ public class ExactWayDistanceFinderTest {
         BRoutes.add(new Route("C", 5));
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
-        int length = finder.getLength(routeMap, "A", "B", "C", "D");
+        finder = new ExactWayDistanceFinder(routeMap);
+        int length = finder.getLength("A", "B", "C", "D");
         assertEquals(ExactWayDistanceFinder.NO_WAY_FIND, length);
     }
 
@@ -75,7 +81,8 @@ public class ExactWayDistanceFinderTest {
         BRoutes.add(new Route("C", 5));
         routeMap.put("A", ARoutes);
         routeMap.put("B", BRoutes);
-        int length = finder.getLength(routeMap, "A", "B","D","C");
+        finder = new ExactWayDistanceFinder(routeMap);
+        int length = finder.getLength("A", "B", "D", "C");
         assertEquals(ExactWayDistanceFinder.NO_WAY_FIND, length);
     }
 }

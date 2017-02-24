@@ -17,11 +17,11 @@ public class MaxDistanceWayNumberFinder extends WayNumberFinder {
 
     @Override
     protected boolean isRightWay(String nowWay, int nowLength, Route nowRoute) {
-        return nowRoute.getToTownName().equals(to);
+        return nowRoute.getToTownName().equals(to) && nowLength > 0;
     }
 
     @Override
     protected boolean isOnLimited(String nowWay, int nowLength, Route nowRoute) {
-        return nowLength <= limited;
+        return nowLength < limited;
     }
 }

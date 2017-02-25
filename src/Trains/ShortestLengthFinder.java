@@ -80,8 +80,8 @@ public class ShortestLengthFinder {
 
     private int getTemp(List<Route> routesMid, List<Route> routesFirst, String midTown, String secendTown) {
         int temp = NO_WAY_FIND;
-        for (Route froute : routesFirst) {
-            temp = updateTemp(routesMid, midTown, secendTown, froute);
+        for (Route route : routesFirst) {
+            temp = updateTemp(routesMid, midTown, secendTown, route);
             if (temp != NO_WAY_FIND)
                 break;
         }

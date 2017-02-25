@@ -22,9 +22,9 @@ public class ExactWayDistanceFinder {
 
         for (int i = 0; i < routeToFind.length - 1; i++) {
             routes = getRoutes(routeToFind[i]);
-            int wayLengh = getDistance(routes, i, routeToFind);
-            if (wayLengh != NO_WAY_FIND) {
-                distance += wayLengh;
+            int wayLength = getDistance(routes, i, routeToFind);
+            if (wayLength != NO_WAY_FIND) {
+                distance += wayLength;
             } else {
                 distance = NO_WAY_FIND;
                 break;
